@@ -236,13 +236,28 @@ async function analyzeMovie(movieId, movieTitle, showDate) {
   const showResults = await Promise.allSettled(
     locations.map((loc) =>
       apiPost("/get-shows", { location: loc.id, movieId, showDate }).then(
-        (data) => ({ locId: loc.id, locTitle: loc.locationTitle, data }),
+        (data) => {
+          const screens = Array.isArray(data) ? data : [];
+          let totalShowtimes = 0;
+          for (const s of screens) totalShowtimes += (s.showTimes || []).length;
+          console.log(`[scraper] Location #${loc.id} "${loc.locationTitle}": ${screens.length} screens, ${totalShowtimes} showtimes`);
+          return { locId: loc.id, locTitle: loc.locationTitle, data };
+        },
       ),
     ),
   );
 
+  let rejectedLocs = 0;
+  for (const r of showResults) {
+    if (r.status !== "fulfilled") {
+      rejectedLocs++;
+      console.warn("[scraper] get-shows failed for a location:", r.reason?.message);
+    }
+  }
+  if (rejectedLocs) console.warn(`[scraper] ${rejectedLocs} location(s) had API errors and were skipped`);
+
   // Flatten into individual programId records
-  const programIds = []; // { locId, locTitle, screenTitle, screenType, showTime, programId, seatPrices[] }
+  const showsToFetch = []; // { locId, locTitle, screenTitle, screenType, showTime, programId, seatPrices[] }
 
   for (const r of showResults) {
     if (r.status !== "fulfilled") continue;
@@ -250,7 +265,7 @@ async function analyzeMovie(movieId, movieTitle, showDate) {
     const screens = Array.isArray(data) ? data : [];
     for (const screen of screens) {
       for (const showTime of screen.showTimes || []) {
-        programIds.push({
+        showsToFetch.push({
           locId,
           locTitle,
           screenTitle: screen.screenTitle,
@@ -264,14 +279,14 @@ async function analyzeMovie(movieId, movieTitle, showDate) {
   }
 
   console.log(
-    `[scraper] Found ${programIds.length} shows total — fetching seat data…`,
+    `[scraper] Found ${showsToFetch.length} shows total — fetching seat data…`,
   );
 
-  // Step 2: get seat data for each programId in parallel (batches of 10)
+  // Step 2: get seat data for each program in parallel (batches of 10)
   const shows = [];
   const BATCH = 10;
-  for (let i = 0; i < programIds.length; i += BATCH) {
-    const batch = programIds.slice(i, i + BATCH);
+  for (let i = 0; i < showsToFetch.length; i += BATCH) {
+    const batch = showsToFetch.slice(i, i + BATCH);
     const seatResults = await Promise.allSettled(
       batch.map((p) =>
         apiPost("/get-seat", {
@@ -289,7 +304,6 @@ async function analyzeMovie(movieId, movieTitle, showDate) {
 
       const p = r.value;
 
-      // Build categories by joining get-shows seatPrices with get-seat seatTypes
       const categories = buildCategories(p.seatPrices, p.seatData);
 
       shows.push({
