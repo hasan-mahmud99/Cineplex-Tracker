@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🎬 Cineplex Tracker</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    </head>
+    <body>
+        <!-- ════════════════════════════════════════════════════ HEADER -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <span class="logo-icon">🎬</span>
+                    <div>
+                        <h1>Cineplex Tracker</h1>
+                        <p>Star Cineplex BD · Real-time Ticket Analytics</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-outline" id="btnHistory">
+                        📋 History
+                    </button>
+                    <button class="btn btn-outline" id="btnRefresh" hidden>
+                        ⟳ Refresh
+                    </button>
+                    <button class="btn btn-outline" id="btnExport" hidden>
+                        ⬇ Export CSV
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <!-- ═══════════════════════════════════════════════ SELECTOR -->
+            <section class="card selector-card" id="selectorSection">
+                <!-- Step 1: Movie -->
+                <div class="selector-step" id="step1">
+                    <div class="step-num">1</div>
+                    <div class="step-body">
+                        <label class="step-label">Select Movie</label>
+                        <div class="movie-loading" id="movieLoading">
+                            <span class="spinner"></span> Loading now-showing
+                            movies…
+                        </div>
+                        <div id="movieGrid" class="movie-grid" hidden></div>
+                    </div>
+                </div>
+
+                <!-- Step 2: Date (shown after movie selected) -->
+                <div class="selector-step" id="step2" hidden>
+                    <div class="step-num">2</div>
+                    <div class="step-body">
+                        <label class="step-label">Select Date</label>
+                        <div id="dateLoading" class="date-loading" hidden>
+                            <span class="spinner"></span> Finding available
+                            dates…
+                        </div>
+                        <div id="dateChips" class="date-chips"></div>
+                    </div>
+                </div>
+
+                <!-- Progress bar while analyzing -->
+                <div id="analyzeProgress" class="analyze-progress" hidden>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar progress-bar-anim"></div>
+                    </div>
+                    <p id="analyzeMsg">
+                        Fetching seat data from all locations…
+                    </p>
+                </div>
+
+                <!-- Status messages -->
+                <div id="statusBar" class="status-bar" hidden></div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════ DASHBOARD -->
+            <section id="dashSection" hidden>
+                <!-- Header row -->
+                <div class="dash-header">
+                    <div>
+                        <h2 class="section-title" id="dashTitle"></h2>
+                        <p class="section-sub" id="dashMeta"></p>
+                    </div>
+                </div>
+
+                <!-- KPI cards -->
+                <div class="kpi-grid">
+                    <div class="kpi-card kpi-red">
+                        <div class="kpi-value" id="kpiSold">—</div>
+                        <div class="kpi-label">Tickets Sold</div>
+                    </div>
+                    <div class="kpi-card kpi-green">
+                        <div class="kpi-value" id="kpiAvail">—</div>
+                        <div class="kpi-label">Still Available</div>
+                    </div>
+                    <div class="kpi-card kpi-blue">
+                        <div class="kpi-value" id="kpiCap">—</div>
+                        <div class="kpi-label">Total Capacity</div>
+                    </div>
+                    <div class="kpi-card kpi-purple">
+                        <div class="kpi-value" id="kpiOcc">—</div>
+                        <div class="kpi-label">Occupancy</div>
+                    </div>
+                    <div class="kpi-card kpi-gold">
+                        <div class="kpi-value" id="kpiRev">—</div>
+                        <div class="kpi-label">Est. Revenue (BDT)</div>
+                    </div>
+                    <div class="kpi-card kpi-teal">
+                        <div class="kpi-value" id="kpiShows">—</div>
+                        <div class="kpi-label">Shows / Locations</div>
+                    </div>
+                </div>
+
+                <!-- Charts -->
+                <div class="charts-row">
+                    <div class="card chart-card">
+                        <h3 class="card-title">Occupancy by Location (%)</h3>
+                        <canvas id="chartOcc"></canvas>
+                    </div>
+                    <div class="card chart-card">
+                        <h3 class="card-title">Revenue by Location (BDT)</h3>
+                        <canvas id="chartRev"></canvas>
+                    </div>
+                </div>
+
+                <!-- Branch breakdown -->
+                <div class="card" id="branchCard">
+                    <div class="card-header-row">
+                        <h3 class="card-title">Location Breakdown</h3>
+                        <input
+                            id="branchSearch"
+                            class="search-input"
+                            placeholder="🔍 filter…"
+                        />
+                    </div>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Location</th>
+                                    <th class="num">Shows</th>
+                                    <th class="num">Sold</th>
+                                    <th class="num">Available</th>
+                                    <th class="num">Capacity</th>
+                                    <th class="num">Occupancy</th>
+                                    <th class="num">Revenue (BDT)</th>
+                                    <th>Seat Types</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="branchTbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Show detail (expandable per location) -->
+                <div class="card" id="showCard" hidden>
+                    <div class="card-header-row">
+                        <h3 class="card-title" id="showCardTitle">Shows</h3>
+                        <button
+                            class="btn btn-sm btn-outline"
+                            id="btnCloseShows"
+                        >
+                            ✕
+                        </button>
+                    </div>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Screen</th>
+                                    <th>Type</th>
+                                    <th class="num">Sold</th>
+                                    <th class="num">Available</th>
+                                    <th class="num">Capacity</th>
+                                    <th class="num">Occupancy</th>
+                                    <th class="num">Revenue</th>
+                                    <th>Categories</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="showTbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <!-- /dashSection -->
+
+            <!-- ═══════════════════════════════════════════════ HISTORY -->
+            <section class="card" id="historySection" hidden>
+                <div class="card-header-row">
+                    <h3 class="card-title">📋 Saved Snapshots</h3>
+                    <button class="btn btn-sm btn-outline" id="btnCloseHistory">
+                        ✕
+                    </button>
+                </div>
+                <div class="table-scroll">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Movie</th>
+                                <th>Date</th>
+                                <th>Saved At</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="histTbody"></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Category detail modal -->
+        <div id="catModal" class="modal-overlay" hidden>
+            <div class="modal">
+                <div class="modal-header">
+                    <h3 id="catModalTitle">Seat Categories</h3>
+                    <button class="modal-close" id="catModalClose">✕</button>
+                </div>
+                <div class="modal-body" id="catModalBody"></div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

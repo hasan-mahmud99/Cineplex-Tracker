@@ -1,0 +1,2162 @@
+{
+  "snapshots": [
+    {
+      "id": 82,
+      "movieId": "demo-movie-1",
+      "movieName": "Toofan (Demo)",
+      "showDate": "2026-06-03",
+      "scrapedAt": "6/3/2026, 11:44:12 PM"
+    },
+    {
+      "id": 155,
+      "movieId": 1697,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 12:31:47 AM"
+    },
+    {
+      "id": 196,
+      "movieId": 1701,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 12:32:42 AM"
+    },
+    {
+      "id": 207,
+      "movieId": 1700,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 12:33:03 AM"
+    },
+    {
+      "id": 210,
+      "movieId": 1699,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 12:34:39 AM"
+    },
+    {
+      "id": 218,
+      "movieId": 1666,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 12:39:38 AM"
+    },
+    {
+      "id": 221,
+      "movieId": 1697,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 1:33:23 PM"
+    },
+    {
+      "id": 240,
+      "movieId": 1700,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 1:33:57 PM"
+    },
+    {
+      "id": 243,
+      "movieId": 1699,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 1:34:47 PM"
+    },
+    {
+      "id": 249,
+      "movieId": 1699,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 2:27:31 PM"
+    },
+    {
+      "id": 255,
+      "movieId": 1697,
+      "showDate": "2026-06-04",
+      "scrapedAt": "6/4/2026, 2:30:46 PM"
+    },
+    {
+      "id": 272,
+      "movieId": 1697,
+      "showDate": "2026-06-05",
+      "scrapedAt": "6/4/2026, 2:31:52 PM"
+    }
+  ],
+  "shows": [
+    {
+      "id": 83,
+      "snapshotId": 82,
+      "showId": "b1_1030AM",
+      "showTime": "10:30 AM",
+      "branchId": "b1",
+      "branchName": "Star Cineplex, Bashundhara City",
+      "hallName": "Hall 2",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 87,
+      "snapshotId": 82,
+      "showId": "b1_600PM",
+      "showTime": "6:00 PM",
+      "branchId": "b1",
+      "branchName": "Star Cineplex, Bashundhara City",
+      "hallName": "Hall 3",
+      "format": "3D",
+      "language": "Bangla"
+    },
+    {
+      "id": 91,
+      "snapshotId": 82,
+      "showId": "b1_100PM",
+      "showTime": "1:00 PM",
+      "branchId": "b1",
+      "branchName": "Star Cineplex, Bashundhara City",
+      "hallName": "Hall 3",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 95,
+      "snapshotId": 82,
+      "showId": "b2_1030AM",
+      "showTime": "10:30 AM",
+      "branchId": "b2",
+      "branchName": "Star Cineplex, Shimanto Square",
+      "hallName": "Hall 1",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 99,
+      "snapshotId": 82,
+      "showId": "b2_900PM",
+      "showTime": "9:00 PM",
+      "branchId": "b2",
+      "branchName": "Star Cineplex, Shimanto Square",
+      "hallName": "Hall 2",
+      "format": "3D",
+      "language": "Bangla"
+    },
+    {
+      "id": 103,
+      "snapshotId": 82,
+      "showId": "b3_600PM",
+      "showTime": "6:00 PM",
+      "branchId": "b3",
+      "branchName": "Star Cineplex, Shyamoli",
+      "hallName": "Hall 3",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 107,
+      "snapshotId": 82,
+      "showId": "b3_330PM",
+      "showTime": "3:30 PM",
+      "branchId": "b3",
+      "branchName": "Star Cineplex, Shyamoli",
+      "hallName": "Hall 2",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 111,
+      "snapshotId": 82,
+      "showId": "b4_100PM",
+      "showTime": "1:00 PM",
+      "branchId": "b4",
+      "branchName": "Star Cineplex, SKS Tower, Uttara",
+      "hallName": "Hall 2",
+      "format": "3D",
+      "language": "Bangla"
+    },
+    {
+      "id": 115,
+      "snapshotId": 82,
+      "showId": "b4_600PM",
+      "showTime": "6:00 PM",
+      "branchId": "b4",
+      "branchName": "Star Cineplex, SKS Tower, Uttara",
+      "hallName": "Hall 2",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 119,
+      "snapshotId": 82,
+      "showId": "b4_330PM",
+      "showTime": "3:30 PM",
+      "branchId": "b4",
+      "branchName": "Star Cineplex, SKS Tower, Uttara",
+      "hallName": "Hall 1",
+      "format": "3D",
+      "language": "Bangla"
+    },
+    {
+      "id": 123,
+      "snapshotId": 82,
+      "showId": "b5_600PM",
+      "showTime": "6:00 PM",
+      "branchId": "b5",
+      "branchName": "Star Cineplex, SCC Sylhet",
+      "hallName": "Hall 3",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 127,
+      "snapshotId": 82,
+      "showId": "b5_1030AM",
+      "showTime": "10:30 AM",
+      "branchId": "b5",
+      "branchName": "Star Cineplex, SCC Sylhet",
+      "hallName": "Hall 3",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 131,
+      "snapshotId": 82,
+      "showId": "b5_900PM",
+      "showTime": "9:00 PM",
+      "branchId": "b5",
+      "branchName": "Star Cineplex, SCC Sylhet",
+      "hallName": "Hall 2",
+      "format": "3D",
+      "language": "Bangla"
+    },
+    {
+      "id": 135,
+      "snapshotId": 82,
+      "showId": "b5_100PM",
+      "showTime": "1:00 PM",
+      "branchId": "b5",
+      "branchName": "Star Cineplex, SCC Sylhet",
+      "hallName": "Hall 2",
+      "format": "3D",
+      "language": "Bangla"
+    },
+    {
+      "id": 139,
+      "snapshotId": 82,
+      "showId": "b6_600PM",
+      "showTime": "6:00 PM",
+      "branchId": "b6",
+      "branchName": "Blockbuster Cinemas, Jamuna Future Park",
+      "hallName": "Hall 2",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 143,
+      "snapshotId": 82,
+      "showId": "b6_1030AM",
+      "showTime": "10:30 AM",
+      "branchId": "b6",
+      "branchName": "Blockbuster Cinemas, Jamuna Future Park",
+      "hallName": "Hall 2",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 147,
+      "snapshotId": 82,
+      "showId": "b6_100PM",
+      "showTime": "1:00 PM",
+      "branchId": "b6",
+      "branchName": "Blockbuster Cinemas, Jamuna Future Park",
+      "hallName": "Hall 2",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 151,
+      "snapshotId": 82,
+      "showId": "b6_330PM",
+      "showTime": "3:30 PM",
+      "branchId": "b6",
+      "branchName": "Blockbuster Cinemas, Jamuna Future Park",
+      "hallName": "Hall 1",
+      "format": "2D",
+      "language": "Bangla"
+    },
+    {
+      "id": 156,
+      "snapshotId": 155,
+      "showId": 128399,
+      "showTime": "11:00 AM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 159,
+      "snapshotId": 155,
+      "showId": 128400,
+      "showTime": "2:00 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 162,
+      "snapshotId": 155,
+      "showId": 128449,
+      "showTime": "4:30 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 6",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 164,
+      "snapshotId": 155,
+      "showId": 128450,
+      "showTime": "7:30 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 6",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 166,
+      "snapshotId": 155,
+      "showId": 26272,
+      "showTime": "10:50 AM",
+      "branchId": 3,
+      "branchName": "Star Cineplex, SKS Tower, Mohakhali",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 170,
+      "snapshotId": 155,
+      "showId": 26274,
+      "showTime": "4:45 PM",
+      "branchId": 3,
+      "branchName": "Star Cineplex, SKS Tower, Mohakhali",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 174,
+      "snapshotId": 155,
+      "showId": 21762,
+      "showTime": "1:45 PM",
+      "branchId": 4,
+      "branchName": "Sony Square, Mirpur",
+      "hallName": "Hall 1",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 176,
+      "snapshotId": 155,
+      "showId": 21763,
+      "showTime": "7:45 PM",
+      "branchId": 4,
+      "branchName": "Sony Square, Mirpur",
+      "hallName": "Hall 1",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 178,
+      "snapshotId": 155,
+      "showId": 15928,
+      "showTime": "1:40 PM",
+      "branchId": 6,
+      "branchName": "Bali Arcade, Chattogram",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 180,
+      "snapshotId": 155,
+      "showId": 15960,
+      "showTime": "11:15 AM",
+      "branchId": 6,
+      "branchName": "Bali Arcade, Chattogram",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 182,
+      "snapshotId": 155,
+      "showId": 6748,
+      "showTime": "1:45 PM",
+      "branchId": 8,
+      "branchName": "Centrepoint, Uttara",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 185,
+      "snapshotId": 155,
+      "showId": 6749,
+      "showTime": "4:45 PM",
+      "branchId": 8,
+      "branchName": "Centrepoint, Uttara",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 188,
+      "snapshotId": 155,
+      "showId": 578,
+      "showTime": "4:50 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 190,
+      "snapshotId": 155,
+      "showId": 535,
+      "showTime": "1:45 PM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 192,
+      "snapshotId": 155,
+      "showId": 536,
+      "showTime": "7:20 PM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 194,
+      "snapshotId": 155,
+      "showId": 584,
+      "showTime": "4:50 PM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 2",
+      "format": "VIP",
+      "language": null
+    },
+    {
+      "id": 197,
+      "snapshotId": 196,
+      "showId": 128385,
+      "showTime": "2:10 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 200,
+      "snapshotId": 196,
+      "showId": 128386,
+      "showTime": "7:20 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 203,
+      "snapshotId": 196,
+      "showId": 4603,
+      "showTime": "11:00 AM",
+      "branchId": 5,
+      "branchName": "Bangladesh Military Museum, Bijoy Shoroni",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 205,
+      "snapshotId": 196,
+      "showId": 4604,
+      "showTime": "4:45 PM",
+      "branchId": 5,
+      "branchName": "Bangladesh Military Museum, Bijoy Shoroni",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 208,
+      "snapshotId": 207,
+      "showId": 21824,
+      "showTime": "4:30 PM",
+      "branchId": 4,
+      "branchName": "Sony Square, Mirpur",
+      "hallName": "Hall 3",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 211,
+      "snapshotId": 210,
+      "showId": 128358,
+      "showTime": "4:35 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 214,
+      "snapshotId": 210,
+      "showId": 625,
+      "showTime": "1:40 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 216,
+      "snapshotId": 210,
+      "showId": 626,
+      "showTime": "7:15 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 219,
+      "snapshotId": 218,
+      "showId": 26236,
+      "showTime": "4:35 PM",
+      "branchId": 3,
+      "branchName": "Star Cineplex, SKS Tower, Mohakhali",
+      "hallName": "Hall 3",
+      "format": "VIP",
+      "language": null
+    },
+    {
+      "id": 222,
+      "snapshotId": 221,
+      "showId": 128436,
+      "showTime": "4:50 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 5",
+      "format": "VIP",
+      "language": null
+    },
+    {
+      "id": 224,
+      "snapshotId": 221,
+      "showId": 128449,
+      "showTime": "4:30 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 6",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 226,
+      "snapshotId": 221,
+      "showId": 128450,
+      "showTime": "7:30 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 6",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 228,
+      "snapshotId": 221,
+      "showId": 29126,
+      "showTime": "7:30 PM",
+      "branchId": 2,
+      "branchName": "Shimanto Shambhar, Dhanmondi 2",
+      "hallName": "Hall 1",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 231,
+      "snapshotId": 221,
+      "showId": 15929,
+      "showTime": "7:20 PM",
+      "branchId": 6,
+      "branchName": "Bali Arcade, Chattogram",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 233,
+      "snapshotId": 221,
+      "showId": 6749,
+      "showTime": "4:45 PM",
+      "branchId": 8,
+      "branchName": "Centrepoint, Uttara",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 236,
+      "snapshotId": 221,
+      "showId": 546,
+      "showTime": "7:30 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 238,
+      "snapshotId": 221,
+      "showId": 536,
+      "showTime": "7:20 PM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 241,
+      "snapshotId": 240,
+      "showId": 21824,
+      "showTime": "4:30 PM",
+      "branchId": 4,
+      "branchName": "Sony Square, Mirpur",
+      "hallName": "Hall 3",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 244,
+      "snapshotId": 243,
+      "showId": 128358,
+      "showTime": "4:35 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 247,
+      "snapshotId": 243,
+      "showId": 626,
+      "showTime": "7:15 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 250,
+      "snapshotId": 249,
+      "showId": 128358,
+      "showTime": "4:35 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 253,
+      "snapshotId": 249,
+      "showId": 626,
+      "showTime": "7:15 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 256,
+      "snapshotId": 255,
+      "showId": 128436,
+      "showTime": "4:50 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 5",
+      "format": "VIP",
+      "language": null
+    },
+    {
+      "id": 258,
+      "snapshotId": 255,
+      "showId": 128449,
+      "showTime": "4:30 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 6",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 260,
+      "snapshotId": 255,
+      "showId": 29126,
+      "showTime": "7:30 PM",
+      "branchId": 2,
+      "branchName": "Shimanto Shambhar, Dhanmondi 2",
+      "hallName": "Hall 1",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 263,
+      "snapshotId": 255,
+      "showId": 21808,
+      "showTime": "4:40 PM",
+      "branchId": 4,
+      "branchName": "Sony Square, Mirpur",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 265,
+      "snapshotId": 255,
+      "showId": 15961,
+      "showTime": "4:50 PM",
+      "branchId": 6,
+      "branchName": "Bali Arcade, Chattogram",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 267,
+      "snapshotId": 255,
+      "showId": 6749,
+      "showTime": "4:45 PM",
+      "branchId": 8,
+      "branchName": "Centrepoint, Uttara",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 270,
+      "snapshotId": 255,
+      "showId": 578,
+      "showTime": "4:50 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 273,
+      "snapshotId": 272,
+      "showId": 128466,
+      "showTime": "11:00 AM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 276,
+      "snapshotId": 272,
+      "showId": 128467,
+      "showTime": "2:00 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 279,
+      "snapshotId": 272,
+      "showId": 128564,
+      "showTime": "4:30 PM",
+      "branchId": 1,
+      "branchName": "Bashundhara Shopping Mall, Panthapath",
+      "hallName": "Hall 6",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 281,
+      "snapshotId": 272,
+      "showId": 29185,
+      "showTime": "1:50 PM",
+      "branchId": 2,
+      "branchName": "Shimanto Shambhar, Dhanmondi 2",
+      "hallName": "Hall 1",
+      "format": "Regular",
+      "language": null
+    },
+    {
+      "id": 284,
+      "snapshotId": 272,
+      "showId": 26306,
+      "showTime": "4:45 PM",
+      "branchId": 3,
+      "branchName": "Star Cineplex, SKS Tower, Mohakhali",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 288,
+      "snapshotId": 272,
+      "showId": 26307,
+      "showTime": "7:45 PM",
+      "branchId": 3,
+      "branchName": "Star Cineplex, SKS Tower, Mohakhali",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 292,
+      "snapshotId": 272,
+      "showId": 21894,
+      "showTime": "11:05 AM",
+      "branchId": 4,
+      "branchName": "Sony Square, Mirpur",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 294,
+      "snapshotId": 272,
+      "showId": 16018,
+      "showTime": "1:40 PM",
+      "branchId": 6,
+      "branchName": "Bali Arcade, Chattogram",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 296,
+      "snapshotId": 272,
+      "showId": 16046,
+      "showTime": "11:10 AM",
+      "branchId": 6,
+      "branchName": "Bali Arcade, Chattogram",
+      "hallName": "Hall 3",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 298,
+      "snapshotId": 272,
+      "showId": 639,
+      "showTime": "7:30 PM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 300,
+      "snapshotId": 272,
+      "showId": 666,
+      "showTime": "11:10 AM",
+      "branchId": 9,
+      "branchName": "Shimanto Tower, Narayanganj",
+      "hallName": "Hall 2",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 302,
+      "snapshotId": 272,
+      "showId": 585,
+      "showTime": "1:45 PM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 1",
+      "format": "Premium",
+      "language": null
+    },
+    {
+      "id": 304,
+      "snapshotId": 272,
+      "showId": 627,
+      "showTime": "11:15 AM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 2",
+      "format": "VIP",
+      "language": null
+    },
+    {
+      "id": 306,
+      "snapshotId": 272,
+      "showId": 628,
+      "showTime": "4:50 PM",
+      "branchId": 10,
+      "branchName": "Finlay Square, Chattogram",
+      "hallName": "Hall 2",
+      "format": "VIP",
+      "language": null
+    }
+  ],
+  "seatCategories": [
+    {
+      "id": 84,
+      "showRecordId": 83,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 14,
+      "soldSeats": 66,
+      "price": 200
+    },
+    {
+      "id": 85,
+      "showRecordId": 83,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 13,
+      "soldSeats": 47,
+      "price": 350
+    },
+    {
+      "id": 86,
+      "showRecordId": 83,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 11,
+      "soldSeats": 9,
+      "price": 500
+    },
+    {
+      "id": 88,
+      "showRecordId": 87,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 32,
+      "soldSeats": 48,
+      "price": 200
+    },
+    {
+      "id": 89,
+      "showRecordId": 87,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 15,
+      "soldSeats": 45,
+      "price": 350
+    },
+    {
+      "id": 90,
+      "showRecordId": 87,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 3,
+      "soldSeats": 17,
+      "price": 500
+    },
+    {
+      "id": 92,
+      "showRecordId": 91,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 7,
+      "soldSeats": 73,
+      "price": 200
+    },
+    {
+      "id": 93,
+      "showRecordId": 91,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 22,
+      "soldSeats": 38,
+      "price": 350
+    },
+    {
+      "id": 94,
+      "showRecordId": 91,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 5,
+      "soldSeats": 15,
+      "price": 500
+    },
+    {
+      "id": 96,
+      "showRecordId": 95,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 36,
+      "soldSeats": 44,
+      "price": 200
+    },
+    {
+      "id": 97,
+      "showRecordId": 95,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 19,
+      "soldSeats": 41,
+      "price": 350
+    },
+    {
+      "id": 98,
+      "showRecordId": 95,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 8,
+      "soldSeats": 12,
+      "price": 500
+    },
+    {
+      "id": 100,
+      "showRecordId": 99,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 6,
+      "soldSeats": 74,
+      "price": 200
+    },
+    {
+      "id": 101,
+      "showRecordId": 99,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 12,
+      "soldSeats": 48,
+      "price": 350
+    },
+    {
+      "id": 102,
+      "showRecordId": 99,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 9,
+      "soldSeats": 11,
+      "price": 500
+    },
+    {
+      "id": 104,
+      "showRecordId": 103,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 29,
+      "soldSeats": 51,
+      "price": 200
+    },
+    {
+      "id": 105,
+      "showRecordId": 103,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 9,
+      "soldSeats": 51,
+      "price": 350
+    },
+    {
+      "id": 106,
+      "showRecordId": 103,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 7,
+      "soldSeats": 13,
+      "price": 500
+    },
+    {
+      "id": 108,
+      "showRecordId": 107,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 23,
+      "soldSeats": 57,
+      "price": 200
+    },
+    {
+      "id": 109,
+      "showRecordId": 107,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 29,
+      "soldSeats": 31,
+      "price": 350
+    },
+    {
+      "id": 110,
+      "showRecordId": 107,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 5,
+      "soldSeats": 15,
+      "price": 500
+    },
+    {
+      "id": 112,
+      "showRecordId": 111,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 45,
+      "soldSeats": 35,
+      "price": 200
+    },
+    {
+      "id": 113,
+      "showRecordId": 111,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 31,
+      "soldSeats": 29,
+      "price": 350
+    },
+    {
+      "id": 114,
+      "showRecordId": 111,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 10,
+      "soldSeats": 10,
+      "price": 500
+    },
+    {
+      "id": 116,
+      "showRecordId": 115,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 24,
+      "soldSeats": 56,
+      "price": 200
+    },
+    {
+      "id": 117,
+      "showRecordId": 115,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 33,
+      "soldSeats": 27,
+      "price": 350
+    },
+    {
+      "id": 118,
+      "showRecordId": 115,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 11,
+      "soldSeats": 9,
+      "price": 500
+    },
+    {
+      "id": 120,
+      "showRecordId": 119,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 27,
+      "soldSeats": 53,
+      "price": 200
+    },
+    {
+      "id": 121,
+      "showRecordId": 119,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 31,
+      "soldSeats": 29,
+      "price": 350
+    },
+    {
+      "id": 122,
+      "showRecordId": 119,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 4,
+      "soldSeats": 16,
+      "price": 500
+    },
+    {
+      "id": 124,
+      "showRecordId": 123,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 15,
+      "soldSeats": 65,
+      "price": 200
+    },
+    {
+      "id": 125,
+      "showRecordId": 123,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 23,
+      "soldSeats": 37,
+      "price": 350
+    },
+    {
+      "id": 126,
+      "showRecordId": 123,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 6,
+      "soldSeats": 14,
+      "price": 500
+    },
+    {
+      "id": 128,
+      "showRecordId": 127,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 19,
+      "soldSeats": 61,
+      "price": 200
+    },
+    {
+      "id": 129,
+      "showRecordId": 127,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 11,
+      "soldSeats": 49,
+      "price": 350
+    },
+    {
+      "id": 130,
+      "showRecordId": 127,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 9,
+      "soldSeats": 11,
+      "price": 500
+    },
+    {
+      "id": 132,
+      "showRecordId": 131,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 44,
+      "soldSeats": 36,
+      "price": 200
+    },
+    {
+      "id": 133,
+      "showRecordId": 131,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 8,
+      "soldSeats": 52,
+      "price": 350
+    },
+    {
+      "id": 134,
+      "showRecordId": 131,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 9,
+      "soldSeats": 11,
+      "price": 500
+    },
+    {
+      "id": 136,
+      "showRecordId": 135,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 19,
+      "soldSeats": 61,
+      "price": 200
+    },
+    {
+      "id": 137,
+      "showRecordId": 135,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 33,
+      "soldSeats": 27,
+      "price": 350
+    },
+    {
+      "id": 138,
+      "showRecordId": 135,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 9,
+      "soldSeats": 11,
+      "price": 500
+    },
+    {
+      "id": 140,
+      "showRecordId": 139,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 31,
+      "soldSeats": 49,
+      "price": 200
+    },
+    {
+      "id": 141,
+      "showRecordId": 139,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 4,
+      "soldSeats": 56,
+      "price": 350
+    },
+    {
+      "id": 142,
+      "showRecordId": 139,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 11,
+      "soldSeats": 9,
+      "price": 500
+    },
+    {
+      "id": 144,
+      "showRecordId": 143,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 14,
+      "soldSeats": 66,
+      "price": 200
+    },
+    {
+      "id": 145,
+      "showRecordId": 143,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 23,
+      "soldSeats": 37,
+      "price": 350
+    },
+    {
+      "id": 146,
+      "showRecordId": 143,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 9,
+      "soldSeats": 11,
+      "price": 500
+    },
+    {
+      "id": 148,
+      "showRecordId": 147,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 42,
+      "soldSeats": 38,
+      "price": 200
+    },
+    {
+      "id": 149,
+      "showRecordId": 147,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 19,
+      "soldSeats": 41,
+      "price": 350
+    },
+    {
+      "id": 150,
+      "showRecordId": 147,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 2,
+      "soldSeats": 18,
+      "price": 500
+    },
+    {
+      "id": 152,
+      "showRecordId": 151,
+      "categoryName": "Gold",
+      "totalSeats": 80,
+      "availableSeats": 35,
+      "soldSeats": 45,
+      "price": 200
+    },
+    {
+      "id": 153,
+      "showRecordId": 151,
+      "categoryName": "Diamond",
+      "totalSeats": 60,
+      "availableSeats": 22,
+      "soldSeats": 38,
+      "price": 350
+    },
+    {
+      "id": 154,
+      "showRecordId": 151,
+      "categoryName": "Platinum",
+      "totalSeats": 20,
+      "availableSeats": 9,
+      "soldSeats": 11,
+      "price": 500
+    },
+    {
+      "id": 157,
+      "showRecordId": 156,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 15,
+      "soldSeats": 218,
+      "price": 500
+    },
+    {
+      "id": 158,
+      "showRecordId": 156,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 2,
+      "soldSeats": 13,
+      "price": 600
+    },
+    {
+      "id": 160,
+      "showRecordId": 159,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 54,
+      "soldSeats": 179,
+      "price": 500
+    },
+    {
+      "id": 161,
+      "showRecordId": 159,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 1,
+      "soldSeats": 14,
+      "price": 600
+    },
+    {
+      "id": 163,
+      "showRecordId": 162,
+      "categoryName": "Premium",
+      "totalSeats": 231,
+      "availableSeats": 48,
+      "soldSeats": 183,
+      "price": 600
+    },
+    {
+      "id": 165,
+      "showRecordId": 164,
+      "categoryName": "Premium",
+      "totalSeats": 231,
+      "availableSeats": 64,
+      "soldSeats": 167,
+      "price": 600
+    },
+    {
+      "id": 167,
+      "showRecordId": 166,
+      "categoryName": "Regular",
+      "totalSeats": 158,
+      "availableSeats": 23,
+      "soldSeats": 135,
+      "price": 600
+    },
+    {
+      "id": 168,
+      "showRecordId": 166,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 93,
+      "availableSeats": 0,
+      "soldSeats": 93,
+      "price": 700
+    },
+    {
+      "id": 169,
+      "showRecordId": 166,
+      "categoryName": "Lounger",
+      "totalSeats": 13,
+      "availableSeats": 0,
+      "soldSeats": 13,
+      "price": 600
+    },
+    {
+      "id": 171,
+      "showRecordId": 170,
+      "categoryName": "Regular",
+      "totalSeats": 158,
+      "availableSeats": 30,
+      "soldSeats": 128,
+      "price": 600
+    },
+    {
+      "id": 172,
+      "showRecordId": 170,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 93,
+      "availableSeats": 12,
+      "soldSeats": 81,
+      "price": 700
+    },
+    {
+      "id": 173,
+      "showRecordId": 170,
+      "categoryName": "Lounger",
+      "totalSeats": 13,
+      "availableSeats": 0,
+      "soldSeats": 13,
+      "price": 600
+    },
+    {
+      "id": 175,
+      "showRecordId": 174,
+      "categoryName": "Premium",
+      "totalSeats": 408,
+      "availableSeats": 8,
+      "soldSeats": 400,
+      "price": 500
+    },
+    {
+      "id": 177,
+      "showRecordId": 176,
+      "categoryName": "Premium",
+      "totalSeats": 408,
+      "availableSeats": 10,
+      "soldSeats": 398,
+      "price": 500
+    },
+    {
+      "id": 179,
+      "showRecordId": 178,
+      "categoryName": "Premium",
+      "totalSeats": 196,
+      "availableSeats": 11,
+      "soldSeats": 185,
+      "price": 450
+    },
+    {
+      "id": 181,
+      "showRecordId": 180,
+      "categoryName": "Premium",
+      "totalSeats": 125,
+      "availableSeats": 5,
+      "soldSeats": 120,
+      "price": 450
+    },
+    {
+      "id": 183,
+      "showRecordId": 182,
+      "categoryName": "Premium",
+      "totalSeats": 159,
+      "availableSeats": 7,
+      "soldSeats": 152,
+      "price": 550
+    },
+    {
+      "id": 184,
+      "showRecordId": 182,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 173,
+      "availableSeats": 6,
+      "soldSeats": 167,
+      "price": 650
+    },
+    {
+      "id": 186,
+      "showRecordId": 185,
+      "categoryName": "Premium",
+      "totalSeats": 159,
+      "availableSeats": 58,
+      "soldSeats": 101,
+      "price": 550
+    },
+    {
+      "id": 187,
+      "showRecordId": 185,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 173,
+      "availableSeats": 33,
+      "soldSeats": 140,
+      "price": 650
+    },
+    {
+      "id": 189,
+      "showRecordId": 188,
+      "categoryName": "Premium",
+      "totalSeats": 177,
+      "availableSeats": 48,
+      "soldSeats": 129,
+      "price": 500
+    },
+    {
+      "id": 191,
+      "showRecordId": 190,
+      "categoryName": "Premium",
+      "totalSeats": 72,
+      "availableSeats": 18,
+      "soldSeats": 54,
+      "price": 400
+    },
+    {
+      "id": 193,
+      "showRecordId": 192,
+      "categoryName": "Premium",
+      "totalSeats": 72,
+      "availableSeats": 18,
+      "soldSeats": 54,
+      "price": 400
+    },
+    {
+      "id": 195,
+      "showRecordId": 194,
+      "categoryName": "Royal",
+      "totalSeats": 18,
+      "availableSeats": 2,
+      "soldSeats": 16,
+      "price": 1200
+    },
+    {
+      "id": 198,
+      "showRecordId": 197,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 7,
+      "soldSeats": 226,
+      "price": 500
+    },
+    {
+      "id": 199,
+      "showRecordId": 197,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 0,
+      "soldSeats": 15,
+      "price": 600
+    },
+    {
+      "id": 201,
+      "showRecordId": 200,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 44,
+      "soldSeats": 189,
+      "price": 500
+    },
+    {
+      "id": 202,
+      "showRecordId": 200,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 2,
+      "soldSeats": 13,
+      "price": 600
+    },
+    {
+      "id": 204,
+      "showRecordId": 203,
+      "categoryName": "Premium",
+      "totalSeats": 183,
+      "availableSeats": 2,
+      "soldSeats": 181,
+      "price": 400
+    },
+    {
+      "id": 206,
+      "showRecordId": 205,
+      "categoryName": "Premium",
+      "totalSeats": 183,
+      "availableSeats": 4,
+      "soldSeats": 179,
+      "price": 400
+    },
+    {
+      "id": 209,
+      "showRecordId": 208,
+      "categoryName": "Premium",
+      "totalSeats": 136,
+      "availableSeats": 0,
+      "soldSeats": 136,
+      "price": 500
+    },
+    {
+      "id": 212,
+      "showRecordId": 211,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 5,
+      "soldSeats": 228,
+      "price": 500
+    },
+    {
+      "id": 213,
+      "showRecordId": 211,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 2,
+      "soldSeats": 13,
+      "price": 600
+    },
+    {
+      "id": 215,
+      "showRecordId": 214,
+      "categoryName": "Premium",
+      "totalSeats": 75,
+      "availableSeats": 0,
+      "soldSeats": 75,
+      "price": 500
+    },
+    {
+      "id": 217,
+      "showRecordId": 216,
+      "categoryName": "Premium",
+      "totalSeats": 75,
+      "availableSeats": 6,
+      "soldSeats": 69,
+      "price": 500
+    },
+    {
+      "id": 220,
+      "showRecordId": 219,
+      "categoryName": "Full Recliner",
+      "totalSeats": 38,
+      "availableSeats": 13,
+      "soldSeats": 25,
+      "price": 1500
+    },
+    {
+      "id": 223,
+      "showRecordId": 222,
+      "categoryName": "VIP",
+      "totalSeats": 113,
+      "availableSeats": 105,
+      "soldSeats": 8,
+      "price": 850
+    },
+    {
+      "id": 225,
+      "showRecordId": 224,
+      "categoryName": "Premium",
+      "totalSeats": 231,
+      "availableSeats": 162,
+      "soldSeats": 69,
+      "price": 600
+    },
+    {
+      "id": 227,
+      "showRecordId": 226,
+      "categoryName": "Premium",
+      "totalSeats": 231,
+      "availableSeats": 156,
+      "soldSeats": 75,
+      "price": 600
+    },
+    {
+      "id": 229,
+      "showRecordId": 228,
+      "categoryName": "Premium",
+      "totalSeats": 171,
+      "availableSeats": 145,
+      "soldSeats": 26,
+      "price": 500
+    },
+    {
+      "id": 230,
+      "showRecordId": 228,
+      "categoryName": "Regular",
+      "totalSeats": 92,
+      "availableSeats": 73,
+      "soldSeats": 19,
+      "price": 450
+    },
+    {
+      "id": 232,
+      "showRecordId": 231,
+      "categoryName": "Premium",
+      "totalSeats": 196,
+      "availableSeats": 176,
+      "soldSeats": 20,
+      "price": 450
+    },
+    {
+      "id": 234,
+      "showRecordId": 233,
+      "categoryName": "Premium",
+      "totalSeats": 159,
+      "availableSeats": 100,
+      "soldSeats": 59,
+      "price": 550
+    },
+    {
+      "id": 235,
+      "showRecordId": 233,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 173,
+      "availableSeats": 127,
+      "soldSeats": 46,
+      "price": 650
+    },
+    {
+      "id": 237,
+      "showRecordId": 236,
+      "categoryName": "Premium",
+      "totalSeats": 177,
+      "availableSeats": 147,
+      "soldSeats": 30,
+      "price": 500
+    },
+    {
+      "id": 239,
+      "showRecordId": 238,
+      "categoryName": "Premium",
+      "totalSeats": 72,
+      "availableSeats": 70,
+      "soldSeats": 2,
+      "price": 400
+    },
+    {
+      "id": 242,
+      "showRecordId": 241,
+      "categoryName": "Premium",
+      "totalSeats": 136,
+      "availableSeats": 126,
+      "soldSeats": 10,
+      "price": 500
+    },
+    {
+      "id": 245,
+      "showRecordId": 244,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 219,
+      "soldSeats": 14,
+      "price": 500
+    },
+    {
+      "id": 246,
+      "showRecordId": 244,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 10,
+      "soldSeats": 5,
+      "price": 600
+    },
+    {
+      "id": 248,
+      "showRecordId": 247,
+      "categoryName": "Premium",
+      "totalSeats": 75,
+      "availableSeats": 69,
+      "soldSeats": 6,
+      "price": 500
+    },
+    {
+      "id": 251,
+      "showRecordId": 250,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 218,
+      "soldSeats": 15,
+      "price": 500
+    },
+    {
+      "id": 252,
+      "showRecordId": 250,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 8,
+      "soldSeats": 7,
+      "price": 600
+    },
+    {
+      "id": 254,
+      "showRecordId": 253,
+      "categoryName": "Premium",
+      "totalSeats": 75,
+      "availableSeats": 69,
+      "soldSeats": 6,
+      "price": 500
+    },
+    {
+      "id": 257,
+      "showRecordId": 256,
+      "categoryName": "VIP",
+      "totalSeats": 113,
+      "availableSeats": 103,
+      "soldSeats": 10,
+      "price": 850
+    },
+    {
+      "id": 259,
+      "showRecordId": 258,
+      "categoryName": "Premium",
+      "totalSeats": 231,
+      "availableSeats": 150,
+      "soldSeats": 81,
+      "price": 600
+    },
+    {
+      "id": 261,
+      "showRecordId": 260,
+      "categoryName": "Premium",
+      "totalSeats": 171,
+      "availableSeats": 142,
+      "soldSeats": 29,
+      "price": 500
+    },
+    {
+      "id": 262,
+      "showRecordId": 260,
+      "categoryName": "Regular",
+      "totalSeats": 92,
+      "availableSeats": 71,
+      "soldSeats": 21,
+      "price": 450
+    },
+    {
+      "id": 264,
+      "showRecordId": 263,
+      "categoryName": "Premium",
+      "totalSeats": 225,
+      "availableSeats": 154,
+      "soldSeats": 71,
+      "price": 500
+    },
+    {
+      "id": 266,
+      "showRecordId": 265,
+      "categoryName": "Premium",
+      "totalSeats": 125,
+      "availableSeats": 105,
+      "soldSeats": 20,
+      "price": 450
+    },
+    {
+      "id": 268,
+      "showRecordId": 267,
+      "categoryName": "Premium",
+      "totalSeats": 159,
+      "availableSeats": 95,
+      "soldSeats": 64,
+      "price": 550
+    },
+    {
+      "id": 269,
+      "showRecordId": 267,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 173,
+      "availableSeats": 123,
+      "soldSeats": 50,
+      "price": 650
+    },
+    {
+      "id": 271,
+      "showRecordId": 270,
+      "categoryName": "Premium",
+      "totalSeats": 177,
+      "availableSeats": 119,
+      "soldSeats": 58,
+      "price": 500
+    },
+    {
+      "id": 274,
+      "showRecordId": 273,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 227,
+      "soldSeats": 6,
+      "price": 500
+    },
+    {
+      "id": 275,
+      "showRecordId": 273,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 6,
+      "soldSeats": 9,
+      "price": 600
+    },
+    {
+      "id": 277,
+      "showRecordId": 276,
+      "categoryName": "Premium",
+      "totalSeats": 233,
+      "availableSeats": 221,
+      "soldSeats": 12,
+      "price": 500
+    },
+    {
+      "id": 278,
+      "showRecordId": 276,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 15,
+      "availableSeats": 9,
+      "soldSeats": 6,
+      "price": 600
+    },
+    {
+      "id": 280,
+      "showRecordId": 279,
+      "categoryName": "Premium",
+      "totalSeats": 231,
+      "availableSeats": 145,
+      "soldSeats": 86,
+      "price": 600
+    },
+    {
+      "id": 282,
+      "showRecordId": 281,
+      "categoryName": "Premium",
+      "totalSeats": 171,
+      "availableSeats": 154,
+      "soldSeats": 17,
+      "price": 500
+    },
+    {
+      "id": 283,
+      "showRecordId": 281,
+      "categoryName": "Regular",
+      "totalSeats": 92,
+      "availableSeats": 89,
+      "soldSeats": 3,
+      "price": 450
+    },
+    {
+      "id": 285,
+      "showRecordId": 284,
+      "categoryName": "Regular",
+      "totalSeats": 158,
+      "availableSeats": 125,
+      "soldSeats": 33,
+      "price": 600
+    },
+    {
+      "id": 286,
+      "showRecordId": 284,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 93,
+      "availableSeats": 83,
+      "soldSeats": 10,
+      "price": 700
+    },
+    {
+      "id": 287,
+      "showRecordId": 284,
+      "categoryName": "Lounger",
+      "totalSeats": 13,
+      "availableSeats": 13,
+      "soldSeats": 0,
+      "price": 600
+    },
+    {
+      "id": 289,
+      "showRecordId": 288,
+      "categoryName": "Regular",
+      "totalSeats": 158,
+      "availableSeats": 130,
+      "soldSeats": 28,
+      "price": 600
+    },
+    {
+      "id": 290,
+      "showRecordId": 288,
+      "categoryName": "Semi Recliner",
+      "totalSeats": 93,
+      "availableSeats": 83,
+      "soldSeats": 10,
+      "price": 700
+    },
+    {
+      "id": 291,
+      "showRecordId": 288,
+      "categoryName": "Lounger",
+      "totalSeats": 13,
+      "availableSeats": 13,
+      "soldSeats": 0,
+      "price": 600
+    },
+    {
+      "id": 293,
+      "showRecordId": 292,
+      "categoryName": "Premium",
+      "totalSeats": 225,
+      "availableSeats": 208,
+      "soldSeats": 17,
+      "price": 500
+    },
+    {
+      "id": 295,
+      "showRecordId": 294,
+      "categoryName": "Premium",
+      "totalSeats": 196,
+      "availableSeats": 196,
+      "soldSeats": 0,
+      "price": 450
+    },
+    {
+      "id": 297,
+      "showRecordId": 296,
+      "categoryName": "Premium",
+      "totalSeats": 125,
+      "availableSeats": 120,
+      "soldSeats": 5,
+      "price": 450
+    },
+    {
+      "id": 299,
+      "showRecordId": 298,
+      "categoryName": "Premium",
+      "totalSeats": 177,
+      "availableSeats": 175,
+      "soldSeats": 2,
+      "price": 500
+    },
+    {
+      "id": 301,
+      "showRecordId": 300,
+      "categoryName": "Premium",
+      "totalSeats": 177,
+      "availableSeats": 177,
+      "soldSeats": 0,
+      "price": 500
+    },
+    {
+      "id": 303,
+      "showRecordId": 302,
+      "categoryName": "Premium",
+      "totalSeats": 72,
+      "availableSeats": 67,
+      "soldSeats": 5,
+      "price": 400
+    },
+    {
+      "id": 305,
+      "showRecordId": 304,
+      "categoryName": "Royal",
+      "totalSeats": 18,
+      "availableSeats": 16,
+      "soldSeats": 2,
+      "price": 1200
+    },
+    {
+      "id": 307,
+      "showRecordId": 306,
+      "categoryName": "Royal",
+      "totalSeats": 18,
+      "availableSeats": 16,
+      "soldSeats": 2,
+      "price": 1200
+    }
+  ],
+  "_nextId": 308
+}

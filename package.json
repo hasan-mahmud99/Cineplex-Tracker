@@ -1,0 +1,15 @@
+{
+  "name": "cineplex-tracker",
+  "version": "1.0.0",
+  "description": "Star Cineplex BD ticket tracker & analytics portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "install-playwright": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.44.0"
+  }
+}
